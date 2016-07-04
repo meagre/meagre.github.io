@@ -155,6 +155,8 @@
 					// but there's enough here to piece together a working AJAX submission call that does.
 						window.setTimeout(function() {
 
+							window.open('mailto:info@meag.re?subject=Hello&body=Hi there,');
+
 							// Reset form.
 								$form.reset();
 
